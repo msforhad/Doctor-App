@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+.primary{
+  background: #5F6FFF;
+}
