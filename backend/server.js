@@ -9,7 +9,10 @@ import authRouter from './routes/authRoute.js';
 import cookieParser from "cookie-parser";
 import userRouter from './routes/userRoute.js';
 
-const allowedOrigins=['http://localhost:5173','http://localhost:5174']
+//local test
+// const allowedOrigins=['http://localhost:5173','http://localhost:5174']
+//render test
+const allowedOrigins=['https://doctor-app-admin-9qms.onrender.com','https://doctor-app-frontend-8tiq.onrender.com']
 
 //app config
 const app = express()
